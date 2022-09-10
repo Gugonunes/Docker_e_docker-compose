@@ -1,1 +1,3 @@
-# Docker_e_docker-compose
+# Docker e Docker compose
+
+Repositório para estudos de Docker em geral.

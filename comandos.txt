@@ -1,0 +1,19 @@
+docker run                  -> Inicia uma imagem
+docker ps                   -> Mostra os containers rodando
+docker ps -a                -> Mostra os containers que estavam rodando 
+docker run -p 8080:80       -> Redireciona a porta 8080 do pc pessoal para 
+                               a 80 do container
+docker run -d               -> Detach, separa e roda em background pra liberar
+                               o terminal
+docker rm -f <id>              -> Remove o container
+docker stop                 -> Pausa o container
+docker run --name <nome>    -> Seta um nome para o container
+docker exec <nome>          -> executa comandos dentro do container
+docker exec -it <nome> bash -> Entra na imagem do container e pode executar codigos
+docker images               -> Imagens no pc
+docker rmi <nome>           -> Deleta a imagem 
+docker build -t <nome> .    -> Constrói 
+docker push                 -> upa pro docker hub
+docker-compose up           -> Verifica sobe os serviços do .yaml
+docker-compose up -d        -> Detach
+
